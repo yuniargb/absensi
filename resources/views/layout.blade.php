@@ -109,7 +109,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/agendasiswa">
                         <i class="fas fa-fw fa-folder-open"></i>
-                        <span>Data Agenda Siswa</span></a>
+                        <span>Data Agenda Mengajar Guru</span></a>
                 </li>
                 @endif
                 @if(!empty($walikelas) || auth()->user()->role == 4 )
@@ -229,7 +229,7 @@
                                     <div class="topbar-divider d-none d-sm-block"></div>
                                     <span
                                         class="mr-2 d-none d-lg-inline text-gray-600 small">{{ auth()->user()->name }}</span>
-                                    <img class="img-profile rounded-circle" src="/images/{{ $data->logo }}">
+                                    <img class="img-profile rounded-circle" src="{{ url('/images/'.$data->logo) }}">
                                 </a>
                                 <!-- Dropdown - User Information -->
                                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -287,7 +287,7 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Your Website 2020</span>
+                            <span>Copyright &copy; SMAN 4 TANGERANG 2021</span>
                         </div>
                     </div>
                 </footer>

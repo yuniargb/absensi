@@ -18,7 +18,8 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang di</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">SIAKAD SMAN 4 TANGERANG</h1>
                                 </div>
                                 <form method="post" action="/loginpost" class="user">
                                     @csrf

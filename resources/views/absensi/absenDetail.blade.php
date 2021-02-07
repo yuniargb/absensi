@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Agenda Kegiatan Siswa')
+@section('title', 'Agenda Mengajar Guru')
 @section('content')
 @if ($errors->any())
     <div class="alert alert-danger">
@@ -15,7 +15,7 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-head-row">
-                    <div class="card-title">Agenda Kegiatan Siswa</div>
+                    <div class="card-title">Agenda Mengajar Guru</div>
                     <div class="card-tools">
                         <button type="button" class="btn btn-outline-primary btn-round btn-sm" data-toggle="modal"
                             data-target="#btnAbsenTambahModal">
